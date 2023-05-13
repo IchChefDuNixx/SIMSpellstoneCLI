@@ -4,7 +4,7 @@ import glob
 import re
 
 folder_path = "C:\\Users\\Felix\\Desktop\\SIMSpellstone"
-search_pattern = r"\bshared_stripped\b"
+search_pattern = r"\bsimulator_stripped.js\b"
 
 # Keep track of the files that have already been searched
 searched_files = set()
