@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Button Example</title>
+    <script src="dist/data.min.js"></script>
+    <script src="dist/simulator_stripped.min.js"></script>
+    <style>
+      .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: white;
+        border: 1px solid black;
+        z-index: 9999;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="myButton">Click me</button>
+    <script>
+        var popup;
+        function displayResult() {
+            var deck1 = "ov!AAUAcFFdsR4HdsR4HduEEFdsR4HN40wHN40wHN40wHdsR4HFW1DFdsR4Hkcw4Hkcw4Hkcw4Hkp~FF";
+            var deck2 = "ov!AAUAcFFdsR4HdsR4HduEEFdsR4HN40wHN40wHN40wHdsR4HFW1DFdsR4Hkcw4Hkcw4Hkcw4Hkp~FF";
+            var use_tower = true;
+            var bge_id1 = "164";
+            var bge_id2 = "165";
+            var numsims = 10000;
+          var startTime = performance.now(); // record the start time
+          var result = SIM_CONTROLLER.startsim(deck1, deck2, use_tower, bge_id1, bge_id2, numsims); // call the function and store the result in a variable
+          var endTime = performance.now(); // record the end time
+          result.duration = Math.floor(performance.now() - startTime) / 1000;
+          result.duration = result.duration.toString() + "s";
+          console.log(result); // print the result to the console
+          if (!popup || popup.closed) {
+            popup = window.open('', '_blank', 'width=400,height=300');
+          }
+          var table = '<table>';
+          for (var key in result) {
+            table += '<tr><th>' + key + '</th><td>' + result[key] + '</td></tr>';
+          }
+          table += '</table>';
+          popup.document.body.innerHTML = table;
+        }
+        // add a click event listener to the button
+        document.getElementById("myButton").addEventListener("click", displayResult);
+      </script>
+    </body>
+  </html>
+
+
+
