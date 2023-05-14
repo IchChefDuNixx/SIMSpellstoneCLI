@@ -1,5 +1,5 @@
-const CARDS = require("C:\\Users\\Felix\\Desktop\\SIMSpellstone\\scripts\\data\\cards.js");
-const FUSIONS = require("C:\\Users\\Felix\\Desktop\\SIMSpellstone\\scripts\\data\\fusions.js");
+const CARDS = require("C:\\Users\\Felix\\Desktop\\SIMSpellstoneCLI\\scripts\\data\\cards.js");
+const FUSIONS = require("C:\\Users\\Felix\\Desktop\\SIMSpellstoneCLI\\scripts\\data\\fusions.js");
 
 const http = require('http');
 const hostname = '127.0.0.1';
