@@ -20,8 +20,6 @@ const server = http.createServer((req, res) => {
 
   try {
     const result = script.startsim(deck1, deck2, use_tower, bges, numsims);
-    // const result = script.startsim();
-    // Send the result to the client
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end(`Simulation result: ${JSON.stringify(result)}`);

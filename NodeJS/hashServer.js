@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    
+
     // Parse the URL to get the parameters
     const urlParams = new URL(req.url, `http://${hostname}:${port}`).searchParams;
     const hashable = JSON.parse(urlParams.get("hashable"));
@@ -39,11 +39,11 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
-  
+
 var maxRuneID = 1000;
 
 function hash_encode(deck) {
-    
+
     var current_hash = [];
     var has_priorities = false;
     var has_indexes = false;
