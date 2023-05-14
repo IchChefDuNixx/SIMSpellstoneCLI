@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
     } catch (err) {
         res.statusCode = 500;
         res.setHeader('Content-Type', 'text/plain');
-        res.end(`Error executing script: ${port}:${err}`);
+        res.end(`Error executing script: ${port}: ${err}`);
         return;
     }
 })
@@ -52,16 +52,19 @@ function hash_encode(deck) {
     if (deck.commander) {
         current_hash.push(unitInfo_to_base64(deck.commander));
     }
+
     for (var k in deck.deck) {
         var current_card = deck.deck[k];
-        if (current_card.priority) {
-            has_priorities = true;
+        if (current_card.runes !== null) {
+            if (current_card.priority) {
+                has_priorities = true;
+            }
+            if (current_card.index) {
+                indexes.push(numberToBase64(current_card.index));
+                has_indexes = true;
+            }
+            current_hash.push(unitInfo_to_base64(current_card));
         }
-        if (current_card.index) {
-            indexes.push(numberToBase64(current_card.index));
-            has_indexes = true;
-        }
-        current_hash.push(unitInfo_to_base64(current_card));
     }
 
     if (has_priorities) {

@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
   } catch (err) {
     res.statusCode = 500;
     res.setHeader('Content-Type', 'text/plain');
-    res.end(`Error executing script: ${port}:${err}`);
+    res.end(`Error executing script: ${port}: ${err}`);
     return;
   }
 });
