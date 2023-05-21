@@ -1,5 +1,5 @@
 const http = require('http');
-const script = require("C:\\Users\\Felix\\Desktop\\SIMSpellstoneCLI\\dist\\simulator_stripped.min.js");
+const script = require("C:\\Users\\Felix\\Desktop\\SIMSpellstoneCLI\\dist\\simulator_stripped.js");
 
 const hostname = '127.0.0.1';
 const port = 3001;
