@@ -43,40 +43,44 @@ app.get("/sim", (req, res) => {
 
     try {
         const result = sim.startsim(deck1, deck2, use_tower, bges, numsims);
-        var liveSim = result.liveSim;
-        delete result.liveSim;
+        if (result.liveSim) {
+            var liveSim = result.liveSim;
+            delete result.liveSim;
 
-        // Formatting the table
-        const table = new Table({
-            chars: { 'top': '' , 'top-mid': '' , 'top-left': '' , 'top-right': ''
-                , 'bottom': '' , 'bottom-mid': '' , 'bottom-left': '' , 'bottom-right': ''
-                , 'left': '' , 'left-mid': '' , 'mid': '' , 'mid-mid': ''
-                , 'right': '' , 'right-mid': '' , 'middle': '' },
-            style: {
-                'padding-left': 0,'padding-right': 0,
+            // Formatting the table
+            const table = new Table({
+                chars: { 'top': '' , 'top-mid': '' , 'top-left': '' , 'top-right': ''
+                    , 'bottom': '' , 'bottom-mid': '' , 'bottom-left': '' , 'bottom-right': ''
+                    , 'left': '' , 'left-mid': '' , 'mid': '' , 'mid-mid': ''
+                    , 'right': '' , 'right-mid': '' , 'middle': '' },
+                style: {
+                    'padding-left': 0,'padding-right': 0,
+                }
+            });
+            
+            // custom header
+            table.push([""]);
+            table.push(["First Drop  ", "Winrate  ", "Samples"]);
+
+            // actual content of table
+            // Step 1: Convert object to array of key-value pairs
+            const entries = Object.entries(liveSim);
+
+            // Step 2: Sort the array by the key
+            entries.sort((a, b) => a[0].localeCompare(b[0]));
+
+            for (const [key, value] of entries) {
+                if (hand.includes(key)) {
+                    const number = value.num;
+                    const wins = value.wins;
+                    table.push([key + "  ", (wins/number).toFixed(2), number]);
+                }
             }
-        });
-        
-        // custom header
-        table.push([""]);
-        table.push(["First Drop  ", "Winrate  ", "Samples"]);
 
-        // actual content of table
-        // Step 1: Convert object to array of key-value pairs
-        const entries = Object.entries(liveSim);
-
-        // Step 2: Sort the array by the key
-        entries.sort((a, b) => a[0].localeCompare(b[0]));
-
-        for (const [key, value] of entries) {
-            if (hand.includes(key)) {
-                const number = value.num;
-                const wins = value.wins;
-                table.push([key + "  ", (wins/number).toFixed(2), number]);
-            }
-        }
-
-        res.status(200).send(`Simulation result: ${JSON.stringify(result)}\n${table.toString()}`);
+            res.status(200).send(`Simulation result: ${JSON.stringify(result)}\n${table.toString()}`);
+        } else {
+            res.status(200).send(`Simulation result: ${JSON.stringify(result)}`);
+        };
     } catch (err) {
         res.status(500).send(`Error executing script: ${err}`);
     }
