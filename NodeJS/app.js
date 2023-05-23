@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const http = require('http');
-const Table = require('cli-table');
+const Table = require('cli-table3');
 
 
 // Set CORS headers
@@ -49,15 +49,17 @@ app.get("/sim", (req, res) => {
 
             // Formatting the table
             const table = new Table({
-                chars: { 'top': '' , 'top-mid': '' , 'top-left': '' , 'top-right': ''
-                    , 'bottom': '' , 'bottom-mid': '' , 'bottom-left': '' , 'bottom-right': ''
-                    , 'left': '' , 'left-mid': '' , 'mid': '' , 'mid-mid': ''
-                    , 'right': '' , 'right-mid': '' , 'middle': '' },
+                chars: {
+                    'top': '', 'top-mid': '', 'top-left': '', 'top-right': ''
+                    , 'bottom': '', 'bottom-mid': '', 'bottom-left': '', 'bottom-right': ''
+                    , 'left': '', 'left-mid': '', 'mid': '', 'mid-mid': ''
+                    , 'right': '', 'right-mid': '', 'middle': ''
+                },
                 style: {
-                    'padding-left': 0,'padding-right': 0,
+                    'padding-left': 0, 'padding-right': 0,
                 }
             });
-            
+
             // custom header
             table.push([""]);
             table.push(["First Drop  ", "Winrate  ", "Samples"]);
@@ -70,14 +72,22 @@ app.get("/sim", (req, res) => {
             entries.sort((a, b) => a[0].localeCompare(b[0]));
 
             for (const [key, value] of entries) {
-                if (hand.includes(key)) {
+                if (!hand) {
                     const number = value.num;
                     const wins = value.wins;
-                    table.push([key + "  ", (wins/number).toFixed(2), number]);
+                    table.push([key + "  ", (wins / number).toFixed(2), number]);
+                } else if (hand.includes(key)) {
+                    const number = value.num;
+                    const wins = value.wins;
+                    table.push([key + "  ", (wins / number).toFixed(2), number]);
                 }
             }
-
-            res.status(200).send(`Simulation result: ${JSON.stringify(result)}\n${table.toString()}`);
+            
+            if (table.length <= 3) {
+                res.status(200).send(`Simulation result: ${JSON.stringify(result)}`);
+            } else {
+                res.status(200).send(`Simulation result: ${JSON.stringify(result)}\n${table.toString()}`);
+            }
         } else {
             res.status(200).send(`Simulation result: ${JSON.stringify(result)}`);
         };
