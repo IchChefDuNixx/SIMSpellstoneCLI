@@ -1,0 +1,1345 @@
+{
+    "time": 1684743815,
+    "version": 810,
+    "chat_enabled": 1,
+    "chat_refresh_time": 15,
+    "result": true,
+    "forced_play_time": 1684743845,
+    "battle_data": {
+        "host_is_attacker": true,
+        "battle_id": 1684743815308,
+        "host_id": "3406608001",
+        "kv_store": {
+            "play_id": "B05A5CD3-94D7-437C-A35D-B84247198483",
+            "host_id": "3406608001",
+            "host_password": "91456095214582beaca4a1da5fbd0c9d"
+        },
+        "card_map": {
+            "1": {
+                "unit_id": "4021",
+                "level": "9",
+                "runes": {
+                    "1": {
+                        "item_id": "5172",
+                        "slot": "1",
+                        "skill_index": 2
+                    }
+                },
+                "attack": 5,
+                "health": 23,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "poison",
+                        "x": "9"
+                    }
+                ],
+                "cost": 1
+            },
+            "2": {
+                "unit_id": "2018",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 17,
+                "health": 53,
+                "skills": [
+                    {
+                        "id": "counter",
+                        "x": "13"
+                    },
+                    {
+                        "id": "strike",
+                        "all": "1",
+                        "x": "7"
+                    },
+                    {
+                        "id": "scorchbreath",
+                        "x": "8"
+                    }
+                ],
+                "cost": 3
+            },
+            "3": {
+                "unit_id": "2016",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 15,
+                "health": 54,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "4"
+                    },
+                    {
+                        "id": "rally",
+                        "x": "6",
+                        "all": "1"
+                    },
+                    {
+                        "id": "invigorate",
+                        "x": "7",
+                        "all": "1"
+                    }
+                ],
+                "cost": 3
+            },
+            "4": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": [],
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            },
+            "5": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5192",
+                        "slot": "1",
+                        "skill_index": 1
+                    }
+                },
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            },
+            "6": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": [],
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            },
+            "7": {
+                "unit_id": "4069",
+                "level": "6",
+                "runes": [],
+                "attack": 14,
+                "health": 24,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "rally",
+                        "x": "2",
+                        "all": "1",
+                        "y": "4"
+                    },
+                    {
+                        "id": "berserk",
+                        "x": "3"
+                    }
+                ],
+                "cost": 1
+            },
+            "8": {
+                "unit_id": "2039",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 13,
+                "health": 36,
+                "skills": [
+                    {
+                        "id": "frost",
+                        "x": "4"
+                    },
+                    {
+                        "id": "devour",
+                        "x": "5"
+                    },
+                    {
+                        "id": "flurry",
+                        "c": "2"
+                    }
+                ],
+                "cost": 2
+            },
+            "9": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": [],
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            },
+            "10": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": [],
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            },
+            "11": {
+                "unit_id": "4009",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 15,
+                "health": 48,
+                "skills": [
+                    {
+                        "id": "counter",
+                        "x": "11"
+                    },
+                    {
+                        "id": "heal",
+                        "all": "1",
+                        "x": "6"
+                    },
+                    {
+                        "id": "jam",
+                        "c": "3"
+                    }
+                ],
+                "cost": 3
+            },
+            "12": {
+                "unit_id": "4045",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 12,
+                "health": 45,
+                "skills": [
+                    {
+                        "id": "counterpoison",
+                        "x": "10"
+                    },
+                    {
+                        "id": "regenerate",
+                        "x": "10"
+                    },
+                    {
+                        "id": "enrage",
+                        "all": "1",
+                        "x": "7"
+                    }
+                ],
+                "cost": 3
+            },
+            "13": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": [],
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            },
+            "14": {
+                "unit_id": "4053",
+                "level": "5",
+                "runes": [],
+                "attack": 13,
+                "health": 34,
+                "skills": [
+                    {
+                        "id": "absorb",
+                        "x": "10"
+                    },
+                    {
+                        "id": "rally",
+                        "all": "1",
+                        "y": "4",
+                        "x": "4"
+                    },
+                    {
+                        "id": "protect",
+                        "all": "1",
+                        "y": "4",
+                        "x": "5"
+                    }
+                ],
+                "cost": 2
+            },
+            "15": {
+                "unit_id": "22223",
+                "level": "6",
+                "runes": [],
+                "attack": 5,
+                "health": 20,
+                "skills": [
+                    {
+                        "id": "valor",
+                        "x": "6"
+                    },
+                    {
+                        "id": "enfeeble",
+                        "x": "3",
+                        "all": "1"
+                    },
+                    {
+                        "id": "flurry",
+                        "c": "3"
+                    }
+                ],
+                "cost": 0
+            },
+            "101": {
+                "unit_id": "4053",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 13,
+                "health": 35,
+                "skills": [
+                    {
+                        "id": "absorb",
+                        "x": "10"
+                    },
+                    {
+                        "id": "rally",
+                        "all": "1",
+                        "y": "4",
+                        "x": "5"
+                    },
+                    {
+                        "id": "protect",
+                        "all": "1",
+                        "y": "4",
+                        "x": "5"
+                    }
+                ],
+                "cost": 2
+            },
+            "102": {
+                "unit_id": "26133",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5114",
+                        "slot": "1",
+                        "skill_index": 2
+                    }
+                },
+                "attack": 13,
+                "health": 33,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "enfeeble",
+                        "x": "4",
+                        "all": "1"
+                    },
+                    {
+                        "id": "strike",
+                        "x": "4",
+                        "all": "1"
+                    }
+                ],
+                "cost": 2
+            },
+            "103": {
+                "unit_id": "4045",
+                "level": "5",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 10,
+                "health": 43,
+                "skills": [
+                    {
+                        "id": "counterpoison",
+                        "x": "9"
+                    },
+                    {
+                        "id": "regenerate",
+                        "x": "9"
+                    },
+                    {
+                        "id": "enrage",
+                        "all": "1",
+                        "x": "6"
+                    }
+                ],
+                "cost": 3
+            },
+            "104": {
+                "unit_id": "2016",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 15,
+                "health": 54,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "4"
+                    },
+                    {
+                        "id": "rally",
+                        "x": "6",
+                        "all": "1"
+                    },
+                    {
+                        "id": "invigorate",
+                        "x": "7",
+                        "all": "1"
+                    }
+                ],
+                "cost": 3
+            },
+            "105": {
+                "unit_id": "4061",
+                "level": "5",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 10,
+                "health": 34,
+                "skills": [
+                    {
+                        "id": "absorb",
+                        "x": "10"
+                    },
+                    {
+                        "id": "regenerate",
+                        "x": "10"
+                    },
+                    {
+                        "id": "venom",
+                        "x": "5"
+                    }
+                ],
+                "cost": 2
+            },
+            "106": {
+                "unit_id": "4042",
+                "level": "5",
+                "runes": {
+                    "1": {
+                        "item_id": "5508",
+                        "slot": "1"
+                    }
+                },
+                "attack": 9,
+                "health": 22,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "nullify",
+                        "x": "4"
+                    },
+                    {
+                        "id": "berserk",
+                        "x": "5"
+                    }
+                ],
+                "cost": 1
+            },
+            "107": {
+                "unit_id": "22068",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5053",
+                        "slot": "1",
+                        "skill_index": 0
+                    }
+                },
+                "attack": 14,
+                "health": 62,
+                "skills": [
+                    {
+                        "id": "counter",
+                        "x": "10"
+                    },
+                    {
+                        "id": "protect",
+                        "x": "6",
+                        "all": "1"
+                    },
+                    {
+                        "id": "frost",
+                        "x": "7"
+                    }
+                ],
+                "cost": 4
+            },
+            "108": {
+                "unit_id": "4021",
+                "level": "8",
+                "runes": {
+                    "1": {
+                        "item_id": "5172",
+                        "slot": "1",
+                        "skill_index": 2
+                    }
+                },
+                "attack": 5,
+                "health": 23,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "9"
+                    },
+                    {
+                        "id": "poison",
+                        "x": "9"
+                    }
+                ],
+                "cost": 1
+            },
+            "109": {
+                "unit_id": "4069",
+                "level": "8",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 15,
+                "health": 25,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "rally",
+                        "x": "4",
+                        "all": "1",
+                        "y": "4"
+                    },
+                    {
+                        "id": "berserk",
+                        "x": "5"
+                    }
+                ],
+                "cost": 1
+            },
+            "110": {
+                "unit_id": "4009",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5053",
+                        "slot": "1",
+                        "skill_index": 0
+                    }
+                },
+                "attack": 14,
+                "health": 47,
+                "skills": [
+                    {
+                        "id": "counter",
+                        "x": "10"
+                    },
+                    {
+                        "id": "heal",
+                        "all": "1",
+                        "x": "6"
+                    },
+                    {
+                        "id": "jam",
+                        "c": "3"
+                    }
+                ],
+                "cost": 3
+            },
+            "111": {
+                "unit_id": "22223",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5104",
+                        "slot": "1",
+                        "skill_index": 1
+                    }
+                },
+                "attack": 5,
+                "health": 20,
+                "skills": [
+                    {
+                        "id": "valor",
+                        "x": "6"
+                    },
+                    {
+                        "id": "enfeeble",
+                        "x": "3",
+                        "all": "1"
+                    },
+                    {
+                        "id": "flurry",
+                        "c": "3"
+                    }
+                ],
+                "cost": 0
+            },
+            "112": {
+                "unit_id": "4062",
+                "level": "5",
+                "runes": {
+                    "1": {
+                        "item_id": "5012",
+                        "slot": "1"
+                    }
+                },
+                "attack": 8,
+                "health": 24,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "3"
+                    },
+                    {
+                        "id": "burn",
+                        "x": "5"
+                    },
+                    {
+                        "id": "berserk",
+                        "x": "5"
+                    }
+                ],
+                "cost": 1
+            },
+            "113": {
+                "unit_id": "27159",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5034",
+                        "slot": "1",
+                        "skill_index": 1
+                    }
+                },
+                "attack": 14,
+                "health": 32,
+                "skills": [
+                    {
+                        "id": "evade",
+                        "x": "4"
+                    },
+                    {
+                        "id": "protect",
+                        "x": "4",
+                        "all": "1"
+                    },
+                    {
+                        "id": "jam",
+                        "c": "3"
+                    }
+                ],
+                "cost": 2
+            },
+            "114": {
+                "unit_id": "2094",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                },
+                "attack": 10,
+                "health": 28,
+                "skills": [
+                    {
+                        "id": "wingward",
+                        "x": "6"
+                    },
+                    {
+                        "id": "jam",
+                        "c": "3"
+                    },
+                    {
+                        "id": "nullify",
+                        "x": "5"
+                    }
+                ],
+                "cost": 1
+            },
+            "115": {
+                "unit_id": "21044",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5192",
+                        "slot": "1",
+                        "skill_index": 1
+                    }
+                },
+                "attack": 4,
+                "health": 31,
+                "skills": [
+                    {
+                        "id": "armored",
+                        "x": "7"
+                    },
+                    {
+                        "id": "valor",
+                        "x": "10"
+                    },
+                    {
+                        "id": "legion",
+                        "x": "7"
+                    }
+                ],
+                "cost": 2
+            }
+        },
+        "attack_commander": {
+            "unit_index": "299",
+            "unit_id": "13",
+            "level": "6"
+        },
+        "attack_deck": {
+            "1": {
+                "unit_index": "304",
+                "unit_id": "4021",
+                "level": "9",
+                "runes": {
+                    "1": {
+                        "item_id": "5172",
+                        "slot": "1",
+                        "skill_index": 2
+                    }
+                }
+            },
+            "2": {
+                "unit_index": "76",
+                "unit_id": "2018",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                }
+            },
+            "3": {
+                "unit_index": "266",
+                "unit_id": "2016",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                }
+            },
+            "4": {
+                "unit_index": "92",
+                "unit_id": "21044",
+                "level": "6",
+                "runes": []
+            },
+            "5": {
+                "unit_index": "145",
+                "unit_id": "21044",
+                "level": "6",
+                "runes": {
+                    "1": {
+                        "item_id": "5192",
+                        "slot": "1",
+                        "skill_index": 1
+                    }
+                }
+            },
+            "6": {
+                "unit_index": "222",
+                "unit_id": "21044",
+                "level": "6",
+                "runes": []
+            },
+            "7": {
+                "unit_index": "535",
+                "unit_id": "4069",
+                "level": "6",
+                "runes": []
+            },
+            "8": {
+                "unit_index": "67",
+                "unit_id": "2039",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                }
+            },
+            "9": {
+                "unit_index": "195",
+                "unit_id": "21044",
+                "level": "6",
+                "runes": []
+            },
+            "10": {
+                "unit_index": "44",
+                "unit_id": "21044",
+                "level": "6",
+                "runes": []
+            },
+            "11": {
+                "unit_index": "176",
+                "unit_id": "4009",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                }
+            },
+            "12": {
+                "unit_index": "337",
+                "unit_id": "4045",
+                "level": "7",
+                "runes": {
+                    "1": {
+                        "item_id": "5013",
+                        "slot": "1"
+                    }
+                }
+            },
+            "13": {
+                "unit_index": "194",
+                "unit_id": "21044",
+                "level": "6",
+                "runes": []
+            },
+            "14": {
+                "unit_index": "245",
+                "unit_id": "4053",
+                "level": "5",
+                "runes": []
+            },
+            "15": {
+                "unit_index": "170",
+                "unit_id": "22223",
+                "level": "6",
+                "runes": []
+            }
+        },
+        "defend_commander": {
+            "unit_index": "1",
+            "unit_id": "15",
+            "level": "6"
+        },
+        "enemy_id": "3406608001",
+        "turn": {
+            "1": {
+                "draws": [
+                    12,
+                    11,
+                    1
+                ]
+            }
+        },
+        "upkept": true,
+        "trap_draws": [],
+        "is_live_battle": true,
+        "effect_ids": {
+            "164": "164",
+            "165": "165",
+            "521": "521"
+        },
+        "battleground_effects": {
+            "164": {
+                "id": "164",
+                "name": "Lily & Vampiric Spear Formation Reinforced",
+                "desc": "Frogs deal extra damage on their first attack each turn equal to 25% of their base Health, while also gaining Pierce equal to their base Attack and Siphon as 3 plus their Attack.",
+                "icon": "filter_frog_64.png",
+                "effect": {
+                    "add_skill": [
+                        {
+                            "id": "bash",
+                            "mult": "0.25",
+                            "base": "health",
+                            "y": "4"
+                        },
+                        {
+                            "id": "pierce",
+                            "mult": "1",
+                            "base": "attack",
+                            "y": "4"
+                        },
+                        {
+                            "id": "leech",
+                            "x": "3",
+                            "mult": "1",
+                            "base": "attack",
+                            "y": "4"
+                        }
+                    ],
+                    "skill": {
+                        "target_effect": {
+                            "prefab": "frogbge_Target",
+                            "bundle_id": "96",
+                            "duration": "1",
+                            "loop": "true",
+                            "sound": "shield"
+                        },
+                        "id": "displayEffect",
+                        "trigger": "onSkill",
+                        "s": "bash"
+                    }
+                }
+            },
+            "165": {
+                "id": "165",
+                "name": "Sky Destruction",
+                "desc": "All Avians gain 2+delay Vengeance. Avian of 0-2 delay deal extra damage on their first attack each turn equal to 40% of their base Attack. Avians of 3-4 delay gain Shroud equal to 10% +2 of their base Health.",
+                "icon": "filter_avian_64.png",
+                "effect": {
+                    "add_skill": [
+                        {
+                            "id": "counter",
+                            "x": "2",
+                            "y": "10",
+                            "delay": "0"
+                        },
+                        {
+                            "id": "counter",
+                            "x": "3",
+                            "y": "10",
+                            "delay": "1"
+                        },
+                        {
+                            "id": "counter",
+                            "x": "4",
+                            "y": "10",
+                            "delay": "2"
+                        },
+                        {
+                            "id": "counter",
+                            "x": "5",
+                            "y": "10",
+                            "delay": "3"
+                        },
+                        {
+                            "id": "counter",
+                            "x": "6",
+                            "y": "10",
+                            "delay": "4"
+                        },
+                        {
+                            "id": "bash",
+                            "mult": "0.40",
+                            "base": "attack",
+                            "y": "10",
+                            "delay": "0,1,2"
+                        },
+                        {
+                            "id": "stasis",
+                            "mult": "0.1",
+                            "x": "2",
+                            "base": "health",
+                            "y": "10",
+                            "delay": "3,4"
+                        }
+                    ],
+                    "skill": {
+                        "target_effect": {
+                            "prefab": "frogbge_Target",
+                            "bundle_id": "96",
+                            "duration": "1",
+                            "loop": "true",
+                            "sound": "shield"
+                        },
+                        "id": "displayEffect",
+                        "trigger": "onSkill",
+                        "s": "bash"
+                    }
+                }
+            },
+            "521": {
+                "id": "521",
+                "name": "The Arena",
+                "desc": "In Arena Battles, the player who goes first has two additional Delay added to the first card they play in a battle.",
+                "icon": "arenaBGE_64.png",
+                "icon_bundle": "31",
+                "effect": {
+                    "on_play": [
+                        {
+                            "add_skill": [
+                                {
+                                    "id": "slow",
+                                    "x": "2"
+                                }
+                            ],
+                            "first_play": "1",
+                            "attacker": "1"
+                        }
+                    ]
+                }
+            }
+        },
+        "enemy_name": "Rebelator [Повстанцы]",
+        "enemy_arena_rank": "10",
+        "enemy_size": 15
+    },
+    "pvp_live_arena_rival": {
+        "user_id": "2753859001",
+        "mmr": "2260",
+        "last_update_time": "1684743760",
+        "host_id": "3406608001",
+        "host_password": "91456095214582beaca4a1da5fbd0c9d",
+        "rank": "1",
+        "points": "45370",
+        "stars": "0",
+        "star_reset_time": "0",
+        "last_arena_battle_time": "1684743815"
+    },
+    "user_data": {
+        "user_id": "2753859001",
+        "name": "IchChefDuNixx",
+        "level": "75",
+        "xp": "5047382",
+        "active_deck": "1",
+        "defense_deck": "1",
+        "location_id": "1",
+        "money": "1277",
+        "last_update_time": "1684743390",
+        "energy": "20",
+        "tokens": "3860",
+        "is_elite": "0",
+        "consecutive_days": "0",
+        "daily_bonus": "0",
+        "num_cards": "0",
+        "salvage": "3544",
+        "name_changes": "0",
+        "last_stam_update_time": "1684739593",
+        "stamina": "0",
+        "tutorial_id": "0",
+        "faction_id": "7708001",
+        "looking_for_guild": "0",
+        "vote_id": "2028581001",
+        "battle_energy": "0",
+        "battle_energy_update_time": "0",
+        "faction_permissions": "0",
+        "base_xp": "4970000",
+        "next_xp": "5090000",
+        "stamina_recharge_time": 4500,
+        "energy_recharge_time": 480,
+        "salvage_earned": "504088",
+        "num_upgrades": "9671",
+        "vip_points": "3128",
+        "vip_level": "9",
+        "flags": {
+            "music": "0",
+            "sound": "0",
+            "tutorial": "-1",
+            "autopilot": "0",
+            "speed": "4",
+            "show_filters": "0",
+            "show_missions": "0",
+            "hand_pos": null,
+            "language": "en",
+            "group_cards": "1",
+            "screen_shake": "0",
+            "live_battle_autoplay": "0",
+            "bulk_salvage_rares": "1",
+            "dev_event_time_offset": "0",
+            "mission_guider": "0"
+        },
+        "caps": {
+            "max_salvage": 5000,
+            "max_cards": 570
+        },
+        "max_energy": 175,
+        "max_stamina": 14,
+        "max_gold": 50000,
+        "rare_runes_earned": "140",
+        "epic_runes_earned": "227",
+        "legendary_runes_earned": "240",
+        "gold_spent": 8882400,
+        "dust_spent": 570147,
+        "shards_spent": 19210,
+        "usd_spent": "390.45"
+    },
+    "guide_completions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        15,
+        16,
+        17,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1036,
+        1037,
+        1038,
+        1039
+    ],
+    "common_fields": {
+        "guild_id": 7708001,
+        "server_concurrent": 0,
+        "hard_currency_balance": 3860,
+        "hard_currency_bought": 10440,
+        "hard_currency_spent": 19210,
+        "hard_currency_earned": 17570,
+        "soft_currency_balance": 1277,
+        "soft_currency_bought": 13000,
+        "soft_currency_spent": 8882400,
+        "soft_currency_earned": 8879377,
+        "soft_currency_2_balance": 3544,
+        "soft_currency_2_bought": 27432,
+        "soft_currency_2_spent": 570147,
+        "soft_currency_2_earned": 504088,
+        "num_pve_played": 29526,
+        "num_pvp_played": 43349,
+        "num_pve_won": 28490,
+        "num_pvp_won": 39493,
+        "special_event_names": "[\"Gurk Trove\",\"Clockoo Stone Pack\",\"Lechuza Champion Pack\",\"Saucy Champion Pack\",\"Lily & Vampiric Spear Formation Reinforced\",\"Sky Destruction\",\"Gladius Currency Expedition\",\"Birdy Brawl\",\"Avian Arena Chest\",\"Skydiving Guild War\",\"Limitless Brinesoul Stockpile\",\"Unlimited Energy Refill Pack\",\"Fisher Sale!\",\"Airborne Clash Challenge\",\"Guild War Placements\"]",
+        "special_event_types": "[null,null,null,null,null,null,\"6\",\"2\",null,3,null,null,null,\"11\",4]",
+        "special_event_ids": "[\"3374\",\"3378\",\"5471\",\"5472\",\"6101\",\"6102\",\"7098\",\"8108\",\"11090\",\"30083\",\"33144\",\"33145\",\"33150\",100000,130083]",
+        "ab_test": null,
+        "current_pve_energy": 20,
+        "current_pvp_energy": 0,
+        "player_level": 75,
+        "tutorial_completed": true,
+        "legacy_user": false,
+        "pvp_level": 18,
+        "pvp_points": 198600,
+        "max_pve_energy": 175,
+        "max_pvp_energy": 14,
+        "total_spent_in_usd": 390.45,
+        "num_purchases": 0,
+        "event_time": "2023-05-22 08:23:35.30583700",
+        "first_play_time": "2017-02-27 20:21:47",
+        "num_sessions": 10111,
+        "device_type": "Firefox 115.0",
+        "country_code": "DE",
+        "ip_address": "2.206.44.197",
+        "external_ip_address": "2.206.44.197",
+        "kong_user_id": "17450574",
+        "game_username": "IchChefDuNixx",
+        "gamecenter_id": null,
+        "gamecenter_alias": null,
+        "session_id": "612C5303-0308-4CB8-8B2B-482DC482FA9A",
+        "idfa": null,
+        "idfv": null,
+        "android_id": null,
+        "google_ad_id": null,
+        "client_version": 64,
+        "player_xp": 5047382,
+        "server_version": 810,
+        "server_id": null,
+        "first_server_version": 236,
+        "vip_points": 3128,
+        "vip_tier": 9,
+        "vip_level": 900,
+        "elo_rating": 2260,
+        "language_code": "en",
+        "webgl_memory_high_water_mark": "254303232",
+        "client_os_type": "web",
+        "platform": "web",
+        "kong_fields": {
+            "country_code": "DE",
+            "ip_address": "2.206.44.197",
+            "external_ip_address": "2.206.44.197"
+        },
+        "cache_size": 75
+    },
+    "data_cache": [],
+    "request": {
+        "message": "getLiveArenaRival",
+        "user_id": "2753859001",
+        "password": "9b0d7616e98f48d44d5223980d66553c",
+        "client_time": "1684743814",
+        "client_signature": "989e7fe512bdf527d5501b5e4b2ce9b6",
+        "unity": "Unity2020_3_42",
+        "client_version": "70",
+        "api_stat_name": "getLiveArenaRival",
+        "api_stat_time": "289",
+        "kong_id": "17450574",
+        "kong_token": "11c21bec7610940d1ceff8bc451df37f6f3ca1204df426b228c5260474af18aa",
+        "kong_name": "IchChefDuNixx",
+        "webgl_memory_high_water_mark": "254303232",
+        "kong_vars": "{}",
+        "cache_size": "75",
+        "battleground_effect_data_version": "7613e3f163712e81a075bfe9f7bee9ab",
+        "current_campaigns_version": "71423ea24bb79e0a0c5de6b97962f531",
+        "item_data_version": "725cd1db274b494c46437b74c4929508",
+        "map_expansion_data_version": "f80ecf5e823380d25af94a4f66ce348f",
+        "fusion_recipes_version": "56ae301a3dc9fa2c1cb8cdb13f481345",
+        "store_items_version": "6eef9684e0b23ad4473220febf9796dd",
+        "data_usage": "0",
+        "platform": "web"
+    }
+}
