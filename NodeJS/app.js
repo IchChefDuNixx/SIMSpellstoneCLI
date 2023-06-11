@@ -84,12 +84,12 @@ app.get("/sim", (req, res) => {
             }
             
             if (table.length <= 3) {
-                res.status(200).send(`Simulation result: ${JSON.stringify(result)}`);
+                res.status(200).send(`${JSON.stringify(result)}`);
             } else {
-                res.status(200).send(`Simulation result: ${JSON.stringify(result)}\n${table.toString()}`);
+                res.status(200).send(`${JSON.stringify(result)}\n${table.toString()}`);
             }
         } else {
-            res.status(200).send(`Simulation result: ${JSON.stringify(result)}`);
+            res.status(200).send(`${JSON.stringify(result)}`);
         };
     } catch (err) {
         res.status(500).send(`Error executing script: ${err}`);
